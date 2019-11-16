@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>home</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="logo.jpg" alt="">
+        <nav>
+            <ul>
+
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="courses.html"> Courses</a></li>
+                <li> <a href="contact.html">Contact</a> </li>
+
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <br>
+    <h1 style="color:green">w3school</h1>
+    <br>
+    <div class="imgs">
+    <div id="popup1">
+            <center><a href="#M1" rel="modal:open"><button style="margin-top: 30px" id="detail1">More Details</button> </a></center>
+
+    </div>
+    <div id="popup2">
+            <center><a href="#M2" rel="modal:open"><button style="margin-top: 30px" id="detail2">More Details</button> </a></center>
+
+    </div>
+    <div id="popup3">
+            <center><a href="#M3" rel="modal:open"><button style="margin-top: 30px" id="detail3">More Details</button> </a></center>
+
+    </div>
+</div>
+    <br>
+    <center>
+        <!-- <video width= "320" height="240" controls >
+     <source src=https://youtu.be/DPQFmrGyhNA>
+ </video> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DPQFmrGyhNA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    <div id="M1" class="modal">
+        <p>L'HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C'est un langage permettant d'écrire de l'hypertexte, d'où son nom.</p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+      
+      <div id="M2" class="modal">
+            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+
+          <div id="M3" class="modal">
+                <p>JavaScript is the programming language of HTML and the Web.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+      <!-- Link to open the modal -->
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
